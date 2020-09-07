@@ -1,2 +1,2 @@
 # dalae37.github.io
-webpage source by dalae37.com
+source code for dalae37.com
