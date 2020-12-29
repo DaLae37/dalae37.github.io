@@ -1,61 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <title>DaLae37</title>
-  <style>
-    header{
-      position : absolute;
-      left : 0; top : 0; right : 0;
-      height : 50px;
-      background black;
-    }
-    #wheel{
-      position : absolute;
-      left : 50%; top : 50%;
-      transform-style : preserve-3d;
-      animation : rint 10s infinite linear;
-    }
-    .item{
-      position : absolute;
-      margin-left : -100px; margin-top : -100px;
-      width : 190px; height : 190px;
-      border : 5px solid black;
-      background : green;
-    }
-    .item:nth-child(1) {transform : rotateY(0deg) translateZ(-200px);}
-    .item:nth-child(2) {transform : rotateY(60deg) translateZ(-200px);}
-    .item:nth-child(3) {transform : rotateY(120deg) translateZ(-200px);}
-    .item:nth-child(4) {transform : rotateY(180deg) translateZ(-200px);}
-    .item:nth-child(5) {transform : rotateY(240deg) translateZ(-200px);}
-    .item:nth-child(6) {transform : rotateY(300deg) translateZ(-200px);}
-
-    @keyframes rint{
-      from {transform : rotateX(-20deg) rotateY(0deg);}
-      to {transform : rotateX(-20deg) rotateY(360deg);}
-    }
-    </style>
+  <script type='text/javascript'>
+    window.location.href = 'http://dalae37.com/';
+  </script>
 </head>
-<body>
-  <div>
-    <button type="button" onclick="window.location.href = 'https://github.com/dalae37'">깃허브 이동</button>
-    <button type="button" onclick="window.location.href = 'https://blog.naver.com/dalae37'">블로그 이동</button>
-    <button type="button" onclick="window.location.href = 'http://www.dalae37.shop'">개인 도메인</button>
-  </div>
-  <br/>
-  <div>
-    <audio autoplay controls loop>
-      <source src="sound/SunrinInternetHighSchool.mp3" type="audio/mp3" id="sound">
-    </audio>
-  </div>
-  <div id = "viewpoert">
-    <div id = "wheel">
-      <div class = "item"></div>
-      <div class = "item"></div>
-      <div class = "item"></div>
-      <div class = "item"></div>
-      <div class = "item"></div>
-      <div class = "item"></div>
-    </div>
-  </div>
-</body>
 </html>
